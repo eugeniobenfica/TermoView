@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BENFICA | TermoView</title>
+    <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/bparticles.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/animations.css"> 
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script defer type="module" src="scripts/index.js"></script>
+    <script defer src="scripts/nav.js"></script>
+</head>
+<body>
+    <div id="particles"></div>
+    <header>
+        <span class="logo">B∑NFICA <span class="logo-category">TermoView</span></span>
+        <nav id="header__nav">
+            <a href="https://github.com/eugeniobenfica">GitHub</a>
+            <a href="mailto:eugeniobenfica7@gmail.com">Contact</a>
+            <button id="change-theme">
+            </button>
+            <button id="header__expand-close">
+                <div id="bar1"></div>
+                <div id="bar2"></div>
+            </button>
+        </nav>
+        <button id="header__expand-nav">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+    </header>
+    <main>
+        <div class="config__input">
+            <span>Temperatura</span>
+            <input id="config__input__temperature" min="0" step="1900" max="9500" value="0" type="range">
+        </div>
+    </main>
+    <footer id="footer">
+        <span>© 2024 Eugênio Benfica. All rights reserved.</span>
+    </footer>
+</body>
+</html>

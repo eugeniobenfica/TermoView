@@ -1,0 +1,44 @@
+#change-theme {
+    color: var(--color-primary);
+    background-color: var(--color-secundary);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+#particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(1px);
+}
+
+main {
+    position: absolute;
+    left: 50vw;
+    top: 40vh;
+    transform: translate(-50%, -50%);
+}
+
+.config__input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--color-secundary);
+    color: var(--color-primary);
+}
+
+footer {
+    position: fixed;
+}
+
+@media screen and (max-width: 800px) {
+    #main__description {
+        width: 80vw;
+    }
+}
